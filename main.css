@@ -10,3 +10,110 @@ mobile screens (max-width 600px)
 
 
 desktops (min-width 1024px)
+
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e1a2b;
+    color: #ffffff;
+  }
+
+  header {
+    background-color: #10253a;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #00bfff;
+  }
+
+  nav {
+    background: #16314c;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+  }
+
+  nav a {
+    color: #ffffff;
+    margin: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: #00bfff;
+  }
+
+  .hero {
+    background: url('https://www.example.com/avatar-hero.jpg') center/cover no-repeat;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,0.6);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .content {
+    padding: 1rem;
+    line-height: 1.6;
+  }
+
+  .section {
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #10253a;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+
+  /* Tablet and up */
+  @media (min-width: 768px) {
+    .hero h2 {
+      font-size: 2rem;
+    }
+
+    nav {
+      justify-content: space-around;
+    }
+  }
+
+  /* Desktop and up */
+  @media (min-width: 1024px) {
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      min-height: 500px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+  }
+</style>
+</head>
+<body>
+   <h1>Avatar: The Way of Water</h1>
+ </header>
